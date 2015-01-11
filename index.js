@@ -34,7 +34,7 @@
     function tip(vis) {
       svg = getSVGNode(vis)
       point = svg.createSVGPoint()
-      document.body.appendChild(node)
+      $('#lightning-body')[0].appendChild(node)
     }
 
     // Public - show the tooltip on the screen
